@@ -64,7 +64,7 @@ export const Wrapper = styled.div`
     position: relative;
     width: 100%;
     padding: 3rem 0 10rem;
-    background-color: ${({ descriptionColor = COLORS.BLACK }) =>
+    background-color: ${({ descriptionColor = COLORS.WHITE }) =>
       `${descriptionColor}`};
 
     h2 {

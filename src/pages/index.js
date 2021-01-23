@@ -77,13 +77,9 @@ const IndexPage = () => {
         <BottomEdgeDown color={COLORS.BLACK} />
       </div>
       <div className="description">
-          <p>{homePageSmallDescription}</p>
+          {/* <p>{homePageSmallDescription}</p> */}
           <BottomEdgeUp color={COLORS.PRIMARY} />
         </div>
-
-
-
-
         <div className="plants">
           <h2>Featured Plants</h2>
           <div className="plant-items">
@@ -94,19 +90,13 @@ const IndexPage = () => {
                   alt={plant.plantHeaderPicture.altText}
                 />
                 <div className="plant-info">
-                  <p>
-                    {plant.plantName}
-                  </p>
+                  <p>{plant.plantName}</p>
                   <p>{plant.plantHeight} cm</p>
-                </div>
+              </div>
               </Plant>
             ))}
           </div>
         </div>
-
-
-
-
     </Wrapper>
   </Layout>
   )

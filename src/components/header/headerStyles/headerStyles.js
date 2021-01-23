@@ -9,7 +9,7 @@ export const HeaderWrapper = styled.header`
   top: 0;
   width: 100%;
   height: 80px;
-  background: ${COLORS.BLACK};
+  background: ${COLORS.WHITE};
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
@@ -43,7 +43,7 @@ export const MenuList = styled.ul`
     justify-content: center;
     align-items: center;
     a {
-      color: ${COLORS.WHITE};
+      color: ${COLORS.BLACK};
       font-size: 1.2rem;
       font-family: ${FONT_FAMILIES.BUTTON};
       text-transform: uppercase;
