@@ -83,7 +83,7 @@ export const Wrapper = styled.div`
     p {
       width: 70%;
       font-size: 1.3rem;
-      color: ${COLORS.TERTIARY};
+      color: ${COLORS.BLACK};
       text-align: center;
       line-height: 2rem;
       margin: auto;

@@ -39,7 +39,7 @@ const IndexPage = () => {
                   sourceUrl
                   imageFile {
                     childImageSharp {
-                      fluid (quality: 100, grayscale: true){
+                      fluid (quality: 100){
                         ...GatsbyImageSharpFluid_withWebp
                       }
                     }
@@ -72,12 +72,11 @@ const IndexPage = () => {
         <Image fluid={homePageHeaderPicture.imageFile.childImageSharp.fluid} alt={homePageHeaderPicture.altText} />
         <div className="inner-div">
           <p className="header-title">{homePageTitle}</p>
-          <p className="header-description">{homePageSmallDescription}</p>
         </div>
-        <BottomEdgeDown color={COLORS.BLACK} />
+        <BottomEdgeDown color={COLORS.WHITE} />
       </div>
       <div className="description">
-          {/* <p>{homePageSmallDescription}</p> */}
+          <p>{homePageSmallDescription}</p>
           <BottomEdgeUp color={COLORS.PRIMARY} />
         </div>
         <div className="plants">
