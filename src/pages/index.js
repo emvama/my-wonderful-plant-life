@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
-import {Wrapper, Image, Plant, BottomEdgeDown, BottomEdgeUp} from "./pageStyles/pageStyles"
+import {Wrapper, Image, Plant, BottomEdgeDown, BottomEdgeUp} from "../components/pageStyles/pageStyles"
 import { COLORS } from "../constants"
 
 
