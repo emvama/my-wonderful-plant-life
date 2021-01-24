@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
-import {MenuList} from './headerStyles/headerStyles'
+import {MenuList} from '../../headerStyles/headerStyles'
 
 const Menu = ({menuItems})=>{
     console.log(menuItems)

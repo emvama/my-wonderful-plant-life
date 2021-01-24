@@ -28,6 +28,7 @@ const IndexPage = () => {
           homePageSmallDescription
           homePageFeaturedPlants {
             ... on WPGraphql_Plant {
+              slug
               id
               plant {
                 plantDescription
@@ -83,7 +84,7 @@ const IndexPage = () => {
           <h2>Featured Plants</h2>
           <div className="plant-items">
             {homePageFeaturedPlants.map(({ plant, slug }) => (
-              <Plant key={slug} to={`/${slug}`}>
+              <Plant to={`/${slug}`} key={slug}>
                 <Image
                   fluid={plant.plantHeaderPicture.imageFile.childImageSharp.fluid}
                   alt={plant.plantHeaderPicture.altText}

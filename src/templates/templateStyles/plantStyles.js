@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   background-color: ${COLORS.BLACK};
   margin-top: 100px;
 
-  .artist-container {
+  .plant-container {
     display: flex;
     margin: 3rem auto;
     width: 90%;
@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
       flex-direction: column;
     }
 
-    .artist-image {
+    .plant-image {
       position: relative;
       width: 40vw;
       height: 40vw;
@@ -53,7 +53,7 @@ export const Wrapper = styled.div`
       }
     }
 
-    .artist-info {
+    .plant-info {
       display: flex;
       flex-direction: column;
       width: 60vw;
@@ -101,7 +101,7 @@ export const Wrapper = styled.div`
 
       .description {
         font-size: 1.2rem;
-        color: ${COLORS.TERTIARY};
+        color: ${COLORS.WHITE};
 
         @media (max-width: ${MEDIA_QUERIES.MEDIUM}) {
           font-size: 1rem;
@@ -115,7 +115,7 @@ export const Wrapper = styled.div`
     }
   }
 
-  .artist-pictures {
+  .plant-pictures {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -125,7 +125,7 @@ export const Wrapper = styled.div`
       flex-direction: column;
     }
 
-    .artist-picture {
+    .plant-picture {
       width: 28.5vw;
       height: 57vw;
       margin: 0 1vw;
